@@ -27,13 +27,13 @@ class _SignUpPageState extends State<SignUpPage> {
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
-              const Text("Username", style: TextStyle(
+              const Text("Username :", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold
               )),
               TextFormField(
                 decoration: const InputDecoration(
-                  labelText: "Username",
+                  labelText: "โปรดกรอกชื่อผู้ใช้ของท่าน",
                   labelStyle: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold
@@ -45,7 +45,7 @@ class _SignUpPageState extends State<SignUpPage> {
               const SizedBox(
                 height: 32,
               ),
-              const Text("Password", style: TextStyle(
+              const Text("Password :", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold
               )),
@@ -60,7 +60,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     }, 
                     icon: pwStatus ? const Icon(Icons.remove_red_eye) : const Icon(Icons.remove_red_eye_outlined)
                   ),
-                  labelText: "Password",
+                  labelText: "โปรดกรอกรหัสผ่านของท่าน",
                   labelStyle: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold
@@ -70,7 +70,7 @@ class _SignUpPageState extends State<SignUpPage> {
               const SizedBox(
                 height: 32,
               ),
-              const Text("Confirm password", style: TextStyle(
+              const Text("Confirm password :", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold
               )),

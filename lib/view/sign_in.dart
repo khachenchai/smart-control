@@ -24,13 +24,13 @@ class _SignInPageState extends State<SignInPage> {
           child: ListView(
             padding: const EdgeInsets.all(16),
             children: [
-              const Text("Username", style: TextStyle(
+              const Text("Username/ชื่อผู้ใช้ :", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold
               )),
               TextFormField(
                 decoration: const InputDecoration(
-                  labelText: "Username",
+                  labelText: "โปรดกรอกชื่อผู้ใช้ของท่าน",
                   labelStyle: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold
@@ -42,13 +42,13 @@ class _SignInPageState extends State<SignInPage> {
               const SizedBox(
                 height: 32,
               ),
-              const Text("Password", style: TextStyle(
+              const Text("Password/รหัสผ่าน :", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold
               )),
               TextFormField(
                 decoration: const InputDecoration(
-                  labelText: "Password",
+                  labelText: "โปรดกรอกรหัสผ่านของท่าน",
                   labelStyle: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold
