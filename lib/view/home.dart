@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   bool item2Status = false;
   bool item3Status = false;
   bool item4Status = false;
-  double? wet = 50.0;
+  dynamic wet = 80.0;
   int temp = 26;
 
   @override
@@ -136,7 +136,7 @@ class _HomePageState extends State<HomePage> {
                       // fillColor: Colors.green,
                       backgroundColor: Colors.grey,
                       // arcBackgroundColor: Colors.yellow,
-                      // progressColor: if (wet )
+                      progressColor: Colors.lightBlue
                     )
                   ],
                 ),

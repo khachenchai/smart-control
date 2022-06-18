@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smart_control/view/authen.dart';
 import 'package:smart_control/view/home.dart';
+import 'package:smart_control/view/sign_in.dart';
+import 'package:smart_control/view/sign_up.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         )
       ),
-      home: const HomePage()
+      home: const AuthenPage()
     );
   }
 }
